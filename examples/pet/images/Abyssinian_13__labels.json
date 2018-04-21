@@ -1,0 +1,19 @@
+{
+   "image_filename": "Abyssinian_13.jpg",
+   "labels": [
+      {
+         "label_type": "box",
+         "label_class": "cat",
+         "centre": {
+            "x": 185.5,
+            "y": 68.5625
+         },
+         "size": {
+            "x": 99,
+            "y": 92
+         },
+         "object_id": 1
+      }
+   ],
+   "complete": null
+}

@@ -4,7 +4,7 @@ import yaml
 
 import chainer
 
-from chainercv.datasets import voc_detection_label_names
+#from chainercv.datasets import voc_detection_label_names
 from chainercv.links import SSD300
 from chainercv import utils
 from chainercv.visualizations import vis_bbox
@@ -40,7 +40,8 @@ def main():
     vis_bbox(
         img, bbox, label, score, label_names=label_names)
     plot.show()
-
+    save_image = args.image.replace(".jpg", "_out.png")
+    plot.savefig(save_image)
 
 if __name__ == '__main__':
     main()

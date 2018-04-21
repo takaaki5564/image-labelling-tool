@@ -1,0 +1,19 @@
+{
+   "image_filename": "leonberger_11.jpg",
+   "labels": [
+      {
+         "label_type": "box",
+         "label_class": "dog",
+         "centre": {
+            "x": 189,
+            "y": 142.0625
+         },
+         "size": {
+            "x": 62,
+            "y": 55
+         },
+         "object_id": 1
+      }
+   ],
+   "complete": null
+}
